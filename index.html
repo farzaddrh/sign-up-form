@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;700&family=Overpass:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="explaintion">
+          <h1 class="explaination-title">
+            Learn to code by<br />
+            watching others<br />
+          </h1>
+          <p class="explaintion-description">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable
+          </p>
+        </div>
+        <div class="form-container">
+          <div class="form-heading">
+            <p>Try it free 7 days <span> then $20/mo. thereafter </span></p>
+          </div>
+          <form>
+            <div class="form-control">
+              <input
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+                id="firstName"
+                class="input firstName"
+              />
+              <div class="icon-container">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="error">First name cannot be empty</p>
+            </div>
+
+            <div class="form-control">
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+                id="lastName"
+                class="input lastName"
+              />
+              <div class="icon-container">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="error">Last name cannot be empty</p>
+            </div>
+            <div class="form-control">
+              <input
+                type="email"
+                name="email"
+                placeholder=" Email Address"
+                id="email"
+                class="input email"
+              />
+              <div class="icon-container">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="error">Email cannot be empty</p>
+              <!-- <p class="error error-email">Email is not true</p> -->
+            </div>
+            <div class="form-control">
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                id="password"
+                class="input password"
+              />
+              <div class="icon-container">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="error">Password cannot be empty</p>
+            </div>
+            <button class="btn">Claim your free trial</button>
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+    <script src="script.js"></script>
+  </body>
+</html>
